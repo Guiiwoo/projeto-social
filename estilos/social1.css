@@ -4,6 +4,10 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.394);
+}
 ::-webkit-scrollbar{
     width: 0px;
     height: 0px;
