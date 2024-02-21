@@ -40,16 +40,16 @@ iframe#tela{
     top: 80px;
     left: 21px;
     height: 471px;
-    width: 270px;    
+    width: 270px;  
 }
 
 section#redes-sociais img{
     position: relative;
+    top: 18vh;
     height: 50px;
     border-radius: 10px;
     margin: 10px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.394);
-    top: 18vh;
     box-sizing: border-box;
 }
 
@@ -63,6 +63,10 @@ section#redes-sociais img:hover{
     transform: translate(-3px, -3px);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.605);
     transition: transform 0.3s, border 0.1s;
+}
+
+section#redes-sociais > a{
+    overflow-x: auto;
 }
 
 
